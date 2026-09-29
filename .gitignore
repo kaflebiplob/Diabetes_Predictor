@@ -1,0 +1,58 @@
+# ---------- Dataset (too large for Git) ----------
+data/
+dataset/
+*.zip
+kaggle.json
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# ---------- Jupyter / Colab ----------
+.ipynb_checkpoints/
+
+# ---------- Environment variables and secrets ----------
+.env
+.env.*
+!.env.example
+
+# ---------- Model artifacts and training output ----------
+# Large files: keep them out of Git (see note below)
+*.h5
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+logs/
+runs/
+tensorboard/
+
+# ---------- Databases ----------
+*.sqlite3
+*.db
+
+# ---------- Node / React frontend ----------
+node_modules/
+frontend/build/
+frontend/dist/
+.next/
+npm-debug.log*
+yarn-error.log*
+
+# ---------- Uploaded files from users ----------
+uploads/
+
+# ---------- OS and editor files ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---------- Docker ----------
+*.log
