@@ -23,7 +23,6 @@ env/
 !.env.example
 
 # ---------- Model artifacts and training output ----------
-# Large files: keep them out of Git (see note below)
 *.h5
 *.pt
 *.pth
@@ -53,6 +52,3 @@ uploads/
 Thumbs.db
 .vscode/
 .idea/
-
-# ---------- Docker ----------
-*.log
