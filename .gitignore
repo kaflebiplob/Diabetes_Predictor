@@ -3,6 +3,10 @@ data/
 dataset/
 *.zip
 kaggle.json
+node_modules
+models/
+models
+models/*
 
 # ---------- Python ----------
 __pycache__/
